@@ -1,0 +1,11 @@
+{
+ "kind": "attributor",
+ "engine": "https://github.com/shaelsrv/ModelMeetsReality",
+ "engine_commit": "56a33c1",
+ "tier": "designed",
+ "one_line": "assigns outcomes to causes",
+ "premise_shape": "<Outcome> was caused by <cause>, not <rival cause>, because <discriminator>.",
+ "falsifier": "the outcome is better explained by a cause the model excluded",
+ "predict_frame": "For each outcome, name the cause AND the leading rival cause, and the observation that discriminates between them.",
+ "assess_frame": "Did the discriminating observation favour the named cause or the rival?"
+}
